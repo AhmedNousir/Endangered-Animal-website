@@ -1,0 +1,308 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/***********************container***********************/
+.contanier{
+    width: 1170px;
+padding-left:15px ;
+padding-right: 15px;
+margin: auto;/*3shan yb2a fe alnos */
+}
+
+
+
+/***********************start main page***********************/
+.main
+{
+    min-height: 100vh;
+    background-image: url(../imgs/1.jpg);
+    background-size:cover ;
+    position: relative; /*is positioned relative to its normal position. */
+}
+.main .overlayer{
+    background-color: rgba(0,0,0,.2);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+.header{
+    position: relative;
+    z-index: 2; 
+    color: white;
+    display: flex;
+    padding: 10px;
+
+}
+.header .logo{
+    width: 300px;
+    padding: 15px;
+    font-weight: bold;
+    
+}
+.header .links {
+    list-style : none;
+    width: 100%;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+ 
+}
+.header .links li {
+    display: inline-block;/* 3shan yb2a fe line lwa7do */
+    margin-left: 10px;
+}
+
+.header .links li :hover {
+    text-decoration: underline;
+text-decoration-thickness: 3px;
+    text-decoration-color: #2dc997;
+
+}
+.header .links li a {
+   color: white;
+text-decoration: none;
+}
+
+.introduction-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    color: white;
+    text-align: center;
+}
+
+.introduction-text h1{
+
+    font-size: 34px;
+    margin: 0 0 12px;
+}
+
+.introduction-text h1 span{
+
+color:#fab700 ;
+}
+
+.introduction-text p{
+    line-height: 1.6;
+    font-size: 20px;
+    margin: 0;
+}
+
+/************************ End main page************************/
+
+
+/************************start sSTART Who we are************************/
+
+.species-directory{
+    padding-top:50px ;
+    padding-bottom:50px ;
+    display: flex;
+}
+
+.species-directory .info-box{
+    flex: 1;
+    padding: 30px;
+}
+.species-directory .info-box h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+
+.species-directory .info-box p{
+    line-height: 1.8;
+    color: #767676;
+    margin: 0;
+}
+
+.species-directory .image-box{
+    flex: 1;
+    text-align: center;
+}
+.species-directory .image-box img{
+
+}
+
+/************************End  Who we are************************/
+
+/***********************Start range ***********************/
+.range{
+    padding-top:50px ;
+padding-bottom:50px ;
+background-color: #eee;
+}
+.range h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 50px;
+text-align: center;
+}
+.range .range-box{
+background-color: #fff;
+display: flex;
+padding: 15px;
+margin-bottom: 15px;
+
+}
+.range .range-box .range-name{
+font-weight: bold;
+width: 100px;
+text-align: center;
+line-height: 30px;
+}
+.range .range-box .range-proccess{
+height: 30px;
+width: 100%;
+background-color: #f6f6f6;
+border-radius:6px;
+position: relative;
+}
+
+.range .range-box .range-proccess span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(156, 28, 28);
+    transition: all .5s;
+}
+
+/***********************End range ***********************/
+
+/***********************Start Gallary***********************/
+#gallery{
+padding-top:50px;
+padding-bottom:50px;
+
+}
+#gallery h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 30px;
+text-align: center;
+}
+#gallery h4{
+    font-weight: bold;
+    font-size: 20px;
+text-align: center;
+}
+#gallery .photo-box{
+    text-align: center;
+}
+#gallery .photo-box img{
+    height: 180px;
+    width: 200px;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;  /*3shan t7dd alswra*/
+    margin: 5px;
+    cursor: pointer;/*3shan al user ya3rf an alswera feha link*/
+}
+/***********************End Gallary***********************/
+
+/***********************Start Opinions of the team***********************/
+
+.Opinions-of-the-team{
+height: 300px;
+position: relative;
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+
+/*ha3ml after we before 3shan a2smha lnosen*/
+
+.Opinions-of-the-team:before {
+
+    content: '';
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color:#3caea3;
+    height: 100%;
+
+}
+
+.Opinions-of-the-team:after{
+    content: '';
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #20639b;
+    height: 100%;
+
+}
+
+.Opinions-of-the-team h2{
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFf;
+    margin: 0 0 30px;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+}
+
+
+.Opinions-of-the-team .team-box{
+    position: relative;
+    z-index: 2;
+    width :calc(98%/4) ; /*3shan azbt almsa7a bta3t alwdith*/
+    float: left; /*3shan yb2o kamb ba3d */
+    background-color: #fff;
+    padding:20px;
+}
+.Opinions-of-the-team .team-box:not(:last-of-type){ /*ya3ny a5r no3 msh hyt3mlo homatlata yb2a altalt la2*/
+    margin-right:12px ;
+}
+
+.Opinions-of-the-team .team-box > p{
+margin: 0 0 20px;
+line-height: 1.5;
+font-size: 18px;
+color: #707070;
+font-style: italic;
+}
+.Opinions-of-the-team .team-box .personal-info {
+}
+.Opinions-of-the-team .team-box .personal-info h4{
+    margin: 14px 0 10px;
+}
+.Opinions-of-the-team .team-box .personal-info p{
+    color: #707070;
+    margin: 0;
+}
+.Opinions-of-the-team .team-box .personal-info img{
+    float: left;
+    width: 20%;
+    height: 20%;
+    border-radius: 70px ;
+    margin-right:20px ;
+}
+
+/***********************End Opinions of the team***********************/
+
+/***********************Start Footer***********************/
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.footer span{
+    color:#fab700;
+font-weight: bold;
+}
+/***********************END Footer***********************/

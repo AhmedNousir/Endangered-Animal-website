@@ -1,0 +1,518 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/***********************container***********************/
+.contanier{
+    width: 1170px;
+padding-left:15px ;
+padding-right: 15px;
+margin: auto;/*3shan yb2a fe alnos */
+}
+
+
+/***************************************************************** START ABOUT US page********************************************/
+
+
+
+.main-About-Us
+{
+    min-height: 60vh;
+    background-image: url(../imgs/1.jpg);
+    background-position: center;
+    background-size:cover ;
+    position: relative; /*is positioned relative to its normal position. */
+}
+.main-About-Us .overlayer{
+    background-color: rgba(0,0,0,.2);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+
+
+
+.videoo{
+
+    
+    background-color: #f9f9ff;
+}
+.videoo video{
+    margin-left:300px ;
+}
+.videoo button{
+    background-color: #fab700;
+    border: 1px ;
+    font-size: 20px;
+    line-height: 42px;
+    color: #fff;
+}
+.videoo button:hover{
+    background-color:white;
+    color:black;
+    }
+
+    .introV h1{
+        color: rgb(61, 61, 61);
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    
+    }
+    
+    .introV p{
+        color: #707070;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        padding-bottom:0px ;
+    }
+/***************************************************************** ENd ABOUT US page********************************************/
+
+
+
+/***************************************************************** START volunteer page********************************************/
+
+/***********************start main-volunteer page***********************/
+
+.main-volunteer
+{
+    min-height: 60vh;
+    background-image: url(../imgs/1.jpg);
+    background-position: center;
+    background-size:cover ;
+    position: relative; /*is positioned relative to its normal position. */
+}
+.main-volunteer .overlayer{
+    background-color: rgba(0,0,0,.2);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+
+/***********************END main-volunteer page***********************/
+
+
+/***********************Start form volunteer***********************/
+.vform{
+    padding:70px ;
+    margin: 30px;
+    margin-left: 110px;
+    background-image: url(../imgs/backform.jpg);
+    width: 800px;
+
+}
+
+
+.introtoform h1{
+    color: rgb(61, 61, 61);
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 0px;
+
+}
+
+.introtoform p{
+    color: #707070;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom:30px ;
+}
+.Nlabel{
+    color: #555151;
+    font-size: 22px;
+    font-weight: bold;
+}
+.Tclass{
+    width: 720px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    border-radius: 10px
+}
+.SClass{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid gray;}
+
+    .Bclass{
+        background-color: #fab700;
+        border: 1px ;
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 42px;
+        color: #fff;
+        float:right ;
+    }
+    .Bclass:hover{
+        background-color:white;
+        color:black;
+        }
+
+        textarea{border-radius: 5px;
+        }
+        
+/***********************End form volunteer***********************/
+
+/*****************************************************************END volunteer page********************************************/
+
+
+/****************************************start Animals********************************************/
+
+/***********************start main-Rhinos page***********************/
+.main-Rhinos
+{
+    min-height: 60vh;
+    background-image: url(../imgs/4.jpg);
+    background-position: center;
+    background-size:cover ;
+    position: relative; /*is positioned relative to its normal position. */
+}
+.main-Rhinos .overlayer{
+    background-color: rgba(0,0,0,.2);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+/***********************start main-Gorillas page***********************/
+.main-Gorillas
+{
+    min-height: 60vh;
+    background-image: url(../imgs/7.jpg);
+    background-position: center;
+    background-size:cover ;
+    position: relative; /*is positioned relative to its normal position. */
+}
+.main-Gorillas .overlayer{
+    background-color: rgba(0,0,0,.2);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+
+/***********************start main-Sea-turtles page***********************/
+.main-Sea-turtles
+{
+    min-height: 60vh;
+    background-image: url(../imgs/10.jpg);
+    background-position: center;
+    background-size:cover ;
+    position: relative; /*is positioned relative to its normal position. */
+}
+.main-Sea-turtles .overlayer{
+    background-color: rgba(0,0,0,.2);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+
+/***********************start main-north-whale page***********************/
+.main-north-whale
+{
+    min-height: 60vh;
+    background-image: url(../imgs/8.jpg);
+    background-position: center;
+    background-size:cover ;
+    position: relative; /*is positioned relative to its normal position. */
+}
+.main-north-whale .overlayer{
+    background-color: rgba(0,0,0,.2);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+
+/***********************start main-vaquitas page***********************/
+.main-vaquitas
+{
+    min-height: 60vh;
+    background-image: url(../imgs/11.jpg);
+    background-position: center;
+    background-size:cover ;
+    position: relative; /*is positioned relative to its normal position. */
+}
+.main-vaquitas .overlayer{
+    background-color: rgba(0,0,0,.2);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+
+
+
+/***********************start main-amur-leopards page***********************/
+.main-amur-leopard
+{
+    min-height: 60vh;
+    background-image: url(../imgs/5.jpg);
+    background-position: center;
+    background-size:cover ;
+    position: relative; /*is positioned relative to its normal position. */
+}
+.main-amur-leopard .overlayer{
+    background-color: rgba(0,0,0,.2);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+
+
+/***********************start main-saola page***********************/
+.main-saola
+{
+    min-height: 60vh;
+    background-image: url(../imgs/9.jpg);
+    background-position: center;
+    background-size:cover ;
+    position: relative; /*is positioned relative to its normal position. */
+}
+.main-saola .overlayer{
+    background-color: rgba(0,0,0,.2);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+
+
+/***********************start main-Ferret page***********************/
+.main-Ferret
+{
+    min-height: 60vh;
+    background-image: url(../imgs/3.jpg);
+    background-position: center;
+    background-size:cover ;
+    position: relative; /*is positioned relative to its normal position. */
+}
+.main-Ferret .overlayer{
+    background-color: rgba(0,0,0,.2);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+
+/***********************start main-Sumatran-Elephantst page***********************/
+.main-Sumatran-Elephantst
+{
+    min-height: 60vh;
+    background-image: url(../imgs/6.jpg);
+    background-position: center;
+    background-size:cover ;
+    position: relative; /*is positioned relative to its normal position. */
+}
+.main-Sumatran-Elephantst .overlayer{
+    background-color: rgba(0,0,0,.2);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+
+
+/***********************start main-Wild-Dog page***********************/
+.main-Wild-Dog
+{
+    min-height: 60vh;
+    background-image: url(../imgs/12.jpg);
+    background-position: center;
+    background-size:cover ;
+    position: relative; /*is positioned relative to its normal position. */
+}
+.main-Wild-Dog .overlayer{
+    background-color: rgba(0,0,0,.2);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+
+.header{
+    position: relative;
+    z-index: 2; 
+    color: white;
+    display: flex;
+    padding: 10px;
+
+}
+.header .logo{
+    width: 300px;
+    padding: 15px;
+    font-weight: bold;
+    
+}
+.header .links {
+    list-style : none;
+    width: 100%;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+ 
+}
+.header .links li {
+    display: inline-block;/* 3shan yb2a fe line lwa7do */
+    margin-left: 10px;
+}
+
+.header .links li :hover {
+    text-decoration: underline;
+text-decoration-thickness: 3px;
+    text-decoration-color: #2dc997;
+
+}
+.header .links li a {
+   color: white;
+text-decoration: none;
+}
+
+.introduction-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    color: white;
+    text-align: center;
+}
+
+.introduction-text h1{
+
+    font-size: 34px;
+    margin: 0 0 12px;
+}
+
+.introduction-text h1 span{
+
+color:#fab700 ;
+}
+
+.introduction-text p{
+    line-height: 1.6;
+    font-size: 20px;
+    margin: 0;
+}
+
+/************************ End main-Rhinos page************************/
+
+
+
+/************************start introduction about rhino************************/
+
+.species-directory{
+    padding-top:50px ;
+    padding-bottom:50px ;
+    display: flex;
+}
+
+.species-directory .info-box{
+    flex: 1;
+    padding: 30px;
+}
+.species-directory .info-box h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+
+.species-directory .info-box p{
+    line-height: 1.8;
+    color: #767676;
+    margin: 0;
+}
+
+.species-directory .image-box{
+    flex: 1;
+    text-align: center;
+}
+.species-directory .image-box img{
+height: 500px;
+width: 700px;
+}
+
+/************************End introduction about rhino************************/
+
+
+
+
+/************************Start details************************/
+
+.details{
+    padding-top:50px ;
+    padding-bottom:50px ;
+    background-color: #f6f6f6;
+}
+.details summary{
+    font-size: 50px;
+}
+
+
+/************************End details************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************Start Footer***********************/
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.footer span{
+    color:#fab700;
+font-weight: bold;
+}
+/***********************END Footer***********************/

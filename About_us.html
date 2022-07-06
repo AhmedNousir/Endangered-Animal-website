@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <title>About Us</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animal.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet href=" https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Start main-About Us page-->
+
+    <div class="main-About-Us">
+        <div class="overlayer"></div>
+        <div class="contanier">
+
+            <div class="header">
+                <div class="logo">Endangered Animal</div>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html #gallery">Animals</a></li>
+                    <li><a href="Volunteer.html">Volunteer</a></li>
+                    <li><a href="About_us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="introduction-text">
+            <h1>About Us</h1>
+        </div>
+    </div>
+    <!--End main-About Us page-->
+
+
+
+
+    <!--Start video-->
+
+    <div class="contanier">
+        <div class="introV">
+            <h1>Watch this video how they live here </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim.</p>
+
+        </div>
+        <div class="videoo">
+
+
+            <video id="video1" width="500" height="500" controls>
+                <source src="videos/Volunteer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <br>
+            <button onclick="playPause()">Play/Pause</button>
+            <button onclick="fullScreen()">Full Screen</button>
+            <button onclick="makeNormal()">Normal</button>
+
+
+
+        </div>
+
+    </div>
+
+    <script>
+        var myVideo = document.getElementById("video1");
+
+        function playPause() {
+            if (myVideo.paused)
+                myVideo.play();
+            else
+                myVideo.pause();
+        }
+
+        function fullScreen() {
+            myVideo.width = 560;
+        }
+
+
+        function makeNormal() {
+            myVideo.width = 420;
+        } 
+    </script>
+
+    <!--END video-->
+
+
+
+
+    <!-- start introduction about About Us-->
+    <div class="contanier">
+        <div class="species-directory">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>
+                    Sumatran elephants feed on a variety of plants and deposit seeds wherever they go, contributing to a
+                    healthy forest ecosystem.
+                    They also share their lush forest habitat with several other endangered species, such as the
+                    Sumatran rhino, tiger, and orangutan, and countless other species that all benefit from an elephant
+                    population that thrives in a healthy habitat.
+                </p>
+            </div>
+            <div class="image-box">
+                <img src="imgs/elephants.jpg" alt="image-box">
+            </div>
+        </div>
+    </div>
+
+    <!-- end introduction about About Us-->
+
+
+
+    <!--Start Footer-->
+
+    <div class="footer">Copyright ©2021 All rights reserved | This Site is made with <span>ACU TEAM</span>
+    </div>
+    <!--End footer-->
